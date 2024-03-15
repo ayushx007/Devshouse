@@ -17,14 +17,12 @@ import esalesLogo from "public/sponsors/esales.png";
 import IBLogo from "public/sponsors/iblogotransparent.png";
 import devfolioLogo from "public/sponsors/devfolio.png";
 import quillauditsLogo from "public/sponsors/quillaudits.png";
-import nblogo from "public/sponsors/NB-2.0-logo-1.png";
 import BeeCeptor from "public/sponsors/beeceptor.png";
 import bergerpng from "public/sponsors/berger.png";
 import Echo3d from "public/sponsors/echo3d.png";
 import aops from "public/sponsors/aops.png";
 import netweb from "public/sponsors/netweb.png";
 import choice from "public/sponsors/choice.png";
-import Cybrance from "public/sponsors/cybrance.png";
 import Verbwire from "public/sponsors/verbwire.png";
 import Solana from "public/sponsors/solana.png";
 import Redbull from "public/sponsors/redbull.png";
@@ -467,15 +465,14 @@ const Sponsor = () => {
             </div>
 
             <div className="flex gap-60 max-lg:flex-col max-lg:gap-20">
-              <div className="flex flex-row justify-center justify-self-center text-center items-center">
-                <a href="https://cybrancee.com/" target="_blank">
+            <div className="flex flex-row justify-center justify-self-center text-center items-center">
+                <a href="https://axure.com/" target="_blank">
                   <div className="w-[300px] h-[190px] mr-[-290px] backdrop-opacity-100 bg-neutral-200 rounded-[10.61px] flex flex-col justify-center  lg:w-[450px] lg:mr-[-440px] p-1 xl:w-[560px] xl:mr-[-547px]">
                     <div className="flex flex-row justify-center items-center">
-                      <Image src={Cybrance} alt={"Cybrance"} width={250} />
+                      <Image src={axure} alt={"AXURE LOGO"} width={350} />
                     </div>
                   </div>
                 </a>
-
                 <div className="w-[300px] h-[190px] rounded-[10.61px] border-2 border-white lg:w-[450px] xl:w-[560px] mt-[24px]" />
               </div>
               <div className="flex flex-row justify-center justify-self-center text-center items-center">
@@ -566,84 +563,11 @@ const Sponsor = () => {
               </div>
             </div>
 
-              <div className="flex flex-row justify-center justify-self-center text-center items-center">
-                <a href="https://axure.com/" target="_blank">
-                  <div className="w-[300px] h-[190px] mr-[-290px] backdrop-opacity-100 bg-neutral-200 rounded-[10.61px] flex flex-col justify-center  lg:w-[450px] lg:mr-[-440px] p-1 xl:w-[560px] xl:mr-[-547px]">
-                    <div className="flex flex-row justify-center items-center">
-                      <Image src={axure} alt={"AXURE LOGO"} width={350} />
-                    </div>
-                  </div>
-                </a>
-                <div className="w-[300px] h-[190px] rounded-[10.61px] border-2 border-white lg:w-[450px] xl:w-[560px] mt-[24px]" />
-              </div>
+              
             </div>
           </div>
         </div>
-        {/* COM PARTNERS SECTION */}
 
-        <div className="flex flex-col items-center justify-center mt-20 w-full">
-          <div className="flex justify-center items-center w-full">
-            <svg
-              className="flex justify-end "
-              height="5"
-              viewBox="0 0 521 6"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M10.8542 5.78467H0V0.784668H10.8542V5.78467ZM54.2708 5.78467H32.5625V0.784668H54.2708V5.78467ZM97.6875 5.78467H75.9792V0.784668H97.6875V5.78467ZM141.104 5.78467H119.396V0.784668H141.104V5.78467ZM184.521 5.78467H162.813V0.784668H184.521V5.78467ZM227.938 5.78467H206.229V0.784668H227.938V5.78467ZM271.354 5.78467H249.646V0.784668H271.354V5.78467ZM314.771 5.78467H293.062V0.784668H314.771V5.78467ZM358.188 5.78467H336.479V0.784668H358.188V5.78467ZM401.604 5.78467H379.896V0.784668H401.604V5.78467ZM445.021 5.78467H423.313V0.784668H445.021V5.78467ZM488.438 5.78467H466.729V0.784668H488.438V5.78467ZM521 5.78467H510.146V0.784668H521V5.78467Z"
-                fill="white"
-              />
-            </svg>
-            <span className="text-[#EB81C1] text-[25px] mx-4 leading-normal font-bold font-spaceGrotesk  max-xl:text-[25px] max-lg:text-[20px] max-mg:text-[15px] max-sm:text-[15px]">
-              Media Partner
-            </span>
-            <svg
-              className="flex justify-start "
-              height="5"
-              viewBox="0 0 521 6"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M10.8542 5.78467H0V0.784668H10.8542V5.78467ZM54.2708 5.78467H32.5625V0.784668H54.2708V5.78467ZM97.6875 5.78467H75.9792V0.784668H97.6875V5.78467ZM141.104 5.78467H119.396V0.784668H141.104V5.78467ZM184.521 5.78467H162.813V0.784668H184.521V5.78467ZM227.938 5.78467H206.229V0.784668H227.938V5.78467ZM271.354 5.78467H249.646V0.784668H271.354V5.78467ZM314.771 5.78467H293.062V0.784668H314.771V5.78467ZM358.188 5.78467H336.479V0.784668H358.188V5.78467ZM401.604 5.78467H379.896V0.784668H401.604V5.78467ZM445.021 5.78467H423.313V0.784668H445.021V5.78467ZM488.438 5.78467H466.729V0.784668H488.438V5.78467ZM521 5.78467H510.146V0.784668H521V5.78467Z"
-                fill="white"
-              />
-            </svg>
-          </div>
-          <div className="flex gap-60 my-20 max-lg:flex-col max-lg:gap-20">
-            <a href="https://noticebard.com/" target="_blank">
-              <SponsorCard
-                cardWidth={"300px"}
-                cardHeight={"124.878px"}
-                img={nblogo}
-                imgWidth={250}
-                imgAlt={"noticebard"}
-                color={"#FCCF4B"}
-                backgroundMt={"-7.5rem"}
-                backgroundMl={"0.2rem"}
-              />
-            </a>
-            {/* OTHER SPONSORS */}
-            {/* COPY PASTE BELOW CODE */}
-            {/* <a href="https://noticebard.com/" target="_blank">
-              <SponsorCard
-                cardWidth={"300px"}
-                cardHeight={"124.878px"}
-                img={nblogo}
-                imgWidth={250}
-                imgAlt={"noticebard"}
-                color={"#FCCF4B"}
-                backgroundMt={"-7.5rem"}
-                backgroundMl={"0.2rem"}
-              />
-            </a> */}
-          </div>
-        </div>
       </div>
     
   );
