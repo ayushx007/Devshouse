@@ -24,7 +24,7 @@ const FAQData = [
     key: 4,
     question: "Is it necessary for the participants to be from the same university?",
     answer:
-      "No, there are no restrictions regarding universities. Your team can have members from different universities across the globe as long as you can commute to VIT, Chennai India since it is an offline hack!",
+      "No, there are no restrictions regarding universities. Your team can have members from different universities across the globe as long as you can commute to Hyderabad, India since it is an offline hack!",
     color: "green",
   },
   {

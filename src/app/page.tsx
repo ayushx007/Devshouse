@@ -29,7 +29,6 @@ export default function Home() {
       <Navbar />
       {/* <HeroBullets /> */}
       <Hero2 />
-      <MarqueeLogo />
       {/* <AboutPage /> */}
       <About2 />
       <Tracks />
@@ -39,11 +38,9 @@ export default function Home() {
       <Timeline />
       {/*Hide until confirmed*/}
       {/* <Speakers /> */}
-      <Ourteam />
       <Sponsor />
       <Community />
       <FAQ />
-      <Contact />
       <Footer2 />
     </div>
   );

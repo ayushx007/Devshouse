@@ -30,7 +30,7 @@ export default function Hero2() {
           {/* <Image src={SponsorDecor} alt="Sponsor Heading Decoration" className=" -rotate-180" /> */}
           <p className={`${museo.className} text-4xl text-wrap xl:text-5xl text-center xl:text-justify`}>{"<"}</p>
           <p className={`text-4xl text-wrap lg:text-5xl text-center xl:text-justify ${museo.className}`}>
-            DEVSHOUSE &apos;24
+            MLH &apos;24
           </p>
           <p className={`${museo.className} text-4xl text-wrap xl:text-5xl text-center xl:text-justify`}> {">"}</p>
           {/* <Image src={SponsorDecor} alt="Sponsor Heading Decoration" className="rotate-45" /> */}
@@ -85,9 +85,6 @@ export default function Hero2() {
             ></div>
           </Button> */}
         </div>
-      </div>
-      <div className="flex flex-1">
-        <Image src={heroIllustration} alt="timeline" objectFit="fit" fill={false} className="px-8 md:px-0 xl:pr-24" />
       </div>
     </div>
   );

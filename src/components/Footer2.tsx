@@ -15,22 +15,7 @@ import Link from "next/link";
 export default function Footer2() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-4 gap-12 p-12 font-spaceGrotesk">
-      <div className="relative md:col-span-2">
-        <div className="relative">
-          <a href="https://devshouse-1.devfolio.co/" target="_blank">
-            <Image
-              src={devshouseTicket}
-              alt="Devshouse Ticket"
-              className="hover:opacity-0 absolute w-full h-full object-cover transition-opacity duration-500"
-            ></Image>
-            <Image
-              src={devshouseTicket1}
-              alt="Devshouse Ticket"
-              className="w-full object-cover transition-opacity duration-500"
-            ></Image>
-          </a>
-        </div>
-      </div>
+      
       <div className="flex flex-col gap-4 justify-start">
         <div>
           <p className="text-2xl font-bold">Links</p>
@@ -100,13 +85,6 @@ export default function Footer2() {
         </div>
       </div>
       <div className="flex flex-col gap-4 justify-center text-center col-span-4">
-        <div>
-          <p className="text-xl font-bold">Copyrights</p>
-        </div>
-        <div className="flex flex-col">
-          <p className="text-lg">© 2024 {" "}
-          <Link className="underline" href={'https://gdscvitc.eu.org/'}>GDSC VIT Chennai</Link>. All rights reserved.</p>
-        </div>
       </div>
     </div>
   );
