@@ -24,11 +24,6 @@ const Navbar = () => {
         transition: "filter 0.5s ease-in",
       }}
     >
-      <span className="cursor-pointer md:w-60 md-ml-5 m m-3 w-64 flex items-center">
-        <Link href="/">
-          <Image src={logo} alt="DevsHouse" />
-        </Link>
-      </span>
 
       <div
         className="text-5xl cursor-pointer mx-2 md:hidden flex h-10 w-7 items-center stroke-white"
@@ -43,9 +38,8 @@ const Navbar = () => {
       </div>
 
       <ul
-        className={`md:flex md:items-center bg-black backdrop-blur-lg bg-opacity-90 -z-50 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 mt-0 transition-all ease-in duration-500 ${
-          !navbar && "opacity-0 top-[-400px] "
-        } ${navbar && "opacity-100 top-20 "}`}
+        className={`md:flex md:items-center items-center justify-center bg-black backdrop-blur-lg bg-opacity-90 -z-50 md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 mt-0 transition-all ease-in duration-500 ${!navbar && "opacity-0 top-[-400px] "
+          } ${navbar && "opacity-100 top-20 "}`}
       >
         <li className="mx-4 mb-6 md:my-0">
           <a href="#about" className="text-white hover-underline-animation">
