@@ -102,15 +102,6 @@ export function HeroBullets() {
               </Button> */}
             </Group>
           </div>
-          {
-            <Image
-              alt="hero"
-              src={"image.svg"}
-              className={`md:w-1/2  md:-mt-48  lg:-mt-20   `}
-              width={500}
-              height={500}
-            />
-          }
         </div>
       </div>
     </Container>
