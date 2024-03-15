@@ -17,7 +17,7 @@ function ServerSideRendering() {
   return (
     <>
       <Title className={`${classes.title} ${museo.className}`}>
-        <p className="mb-10">DEVSHOUSE ’24</p>
+        <p className="mb-10">MLH ’24</p>
         <hr className="border-none dashed-line "></hr>
       </Title>
 

@@ -15,7 +15,7 @@ const space_Grotesk = Space_Grotesk({
 
 export const metadata = {
   metadataBase: new URL(process.env.SITE_URL || 'https://devshouse.tech'),
-  title: 'DevsHouse',
+  title: 'MLH',
   description: 'A community of developers'
 }
 
